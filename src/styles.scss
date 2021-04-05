@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+$primary: #696773;
+
+$theme-colors: (
+  "eerrie": #272727,
+  "crayola": #fed766,
+  "blu": #009fb7,
+  "dim-grey": #696773,
+  "cultured": #eff1f3,
+);
+
+@import "~bootstrap/scss/bootstrap";
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+@import url("https://fonts.googleapis.com/css2?family=Hind:wght@300;500;700&family=Teko:wght@300;400;700&display=swap");
+
+body {
+  font-family: "Hind", sans-serif;
+  background-color: #eff1f3;
+}
+
+.ff-teko {
+  font-family: "Teko", sans-serif;
+
+  &.bold {
+    font-weight: bold;
+  }
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  margin: 56px 0 0 0;
+  padding: 2rem;
+}
+.title {
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 1;
+}

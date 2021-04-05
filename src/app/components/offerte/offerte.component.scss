@@ -1,0 +1,14 @@
+.offerte {
+  margin: 0 !important;
+  .offers {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+    .gratis {
+      line-height: 1.5;
+      color: white;
+      padding: 0.3rem 1rem;
+    }
+  }
+}

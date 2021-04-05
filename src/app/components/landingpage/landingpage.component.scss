@@ -1,0 +1,51 @@
+.landingpage {
+  justify-content: space-between;
+  margin: 0 !important;
+  .creating {
+    font-family: "Teko", sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 2.5rem;
+    line-height: 0.8;
+    margin-bottom: 1rem;
+  }
+  .offers {
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+    .work {
+      font-size: 1rem;
+      font-weight: lighter;
+
+      span {
+        color: #009fb7;
+        font-weight: bold;
+      }
+    }
+  }
+  i {
+    font-size: 2rem;
+  }
+}
+.citazione {
+  text-align: center;
+  font-style: oblique;
+  margin: 1rem;
+}
+
+#pulse {
+  animation: pulseAnimation 1s ease-in infinite alternate;
+  -webkit-animation: pulseAnimation 1s ease-in infinite alternate;
+}
+
+@keyframes pulseAnimation {
+  0% {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+  }
+}
